@@ -1,0 +1,46 @@
+name: "&6Меню региона"
+size: 27
+open-click:
+  - RIGHT
+menu-settings:
+  add-member:
+    name: "&fДобавить участника"
+    lore:
+      - ""
+      - "&fНажмите ЛКМ и введите ник в чате"
+      - "&7Доступно владельцу и администратору"
+      - ""
+    slot: 16
+    material: PLAYER_HEAD
+    left_click_action:
+      - "[add-member]"
+  info:
+    name: "&fИнформация о регионе"
+    lore:
+      - "&6Владелец: &f%region_owner%"
+      - "&6Координаты: &f%region_x_y_z%"
+      - "&6Участников: &f%region_members%"
+      - "&fПрочность: &a%region_durability%&f/&a%region_max_durability%"
+    slot: 4
+    material: BOOK
+  close:
+    name: "&fЗакрыть"
+    lore:
+      - ""
+      - "&fнажмите чтобы закрыть"
+      - ""
+    slot: 22
+    material: SPECTRAL_ARROW
+    left_click_action:
+      - "[close]"
+  view:
+    name: "&fГраницы региона"
+    lore:
+      - ""
+      - "&fНажмите ЛКМ чтобы показать границы региона"
+      - ""
+    slot: 10
+    material: COMPASS
+    right_click_action:
+      - "[command] ps view"
+      - "[close]"

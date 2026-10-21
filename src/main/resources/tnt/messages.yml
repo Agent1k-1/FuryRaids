@@ -1,0 +1,29 @@
+prefix: "&#FF0055ETNT &7» &f"
+
+no-permission: "[message]{prefix}&cУ вас нет прав для использования этой команды!"
+only-player: "[message]{prefix}&cТолько игрок может использовать эту команду!"
+player-offline: "[message]{prefix}&cИгрок &e%player% &cсейчас не в сети!"
+unknown-type: "[message]{prefix}&cНеизвестный тип TNT: &e%type%&c. Доступно: &7%available%"
+invalid-amount: "[message]{prefix}&cНеверное количество! Должно быть от 1 до 64"
+usage-give: "[message]{prefix}&cИспользование: &7/tnt give <ник> <тип> <кол-во>"
+
+help:
+  - "[message]&8&m----------&r &#FF0055ETNT &8&m----------"
+  - "[message]&f/tnt give &8<&fник&8> <&fтип&8> <&fкол-во&8> &8- &7выдать TNT"
+  - "[message]&f/tnt reload &8- &7перезагрузить плагин"
+  - "[message]&8&m--------------------------"
+
+given:
+  - "[message]{prefix}&aВыдан TNT &r%type% &aигроку &e%player% &aв кол-ве &e%amount%"
+  - "[sound]ENTITY_EXPERIENCE_ORB_PICKUP,1.0,1.2"
+received:
+  - "[message]{prefix}&aВы получили TNT &r%type% &aв кол-ве &e%amount%"
+  - "[title]&#FF0055Новый TNT|&7%type%"
+  - "[sound]ENTITY_PLAYER_LEVELUP,1.0,1.4"
+reloaded:
+  - "[message]{prefix}&aПлагин перезагружен!"
+  - "[actionbar]&aReload &7» OK"
+  - "[sound]ENTITY_EXPERIENCE_ORB_PICKUP,1.0,1.5"
+armed:
+  - "[actionbar]&#FF0055ТНТ активирован &7• &fрадиус &e%radius%"
+  - "[sound]ENTITY_TNT_PRIMED,0.6,1.0"

@@ -1,0 +1,71 @@
+name: FuryRaids
+version: ${project.version}
+main: com.agent1k.FuryRaids
+api-version: '1.21'
+author: agent1k
+depend: [WorldGuard]
+softdepend: [PlaceholderAPI, DecentHolograms]
+
+libraries:
+  - org.xerial:sqlite-jdbc:3.44.0.0
+
+commands:
+  ps:
+    aliases: [privet, region, eregion]
+
+  tnt:
+    aliases: [customtnt, etn]
+
+permissions:
+  eregionplus.player:
+    default: true
+    description: Полный доступ к командам игрока
+    children:
+      eregionplus.add: true
+      eregionplus.remove: true
+      eregionplus.info: true
+      eregionplus.flag: true
+      eregionplus.view: true
+      eregionplus.menu: true
+  eregionplus.add:
+    default: true
+    description: Доступ к /ps add
+  eregionplus.remove:
+    default: true
+    description: Доступ к /ps remove
+  eregionplus.info:
+    default: true
+    description: Доступ к /ps info
+  eregionplus.flag:
+    default: true
+    description: Доступ к /ps flag
+  eregionplus.view:
+    default: true
+    description: Доступ к /ps view
+  eregionplus.menu:
+    default: true
+    description: Открытие меню привата ПКМ по центральному блоку
+  eregionplus.admin.give:
+    default: op
+    description: Доступ к /ps admin give
+  eregionplus.admin.reload:
+    default: op
+    description: Доступ к /ps admin reload
+  eregionplus.admin:
+    default: op
+    description: Полный админ-доступ
+    children:
+      eregionplus.admin.give: true
+      eregionplus.admin.reload: true
+  etnt.full:
+    default: op
+    description: Полный доступ ко всем командам
+    children:
+      etnt.give: true
+      etnt.reload: true
+  etnt.give:
+    default: op
+    description: Доступ к /tnt give
+  etnt.reload:
+    default: op
+    description: Доступ к /tnt reload

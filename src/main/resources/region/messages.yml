@@ -1,0 +1,156 @@
+messages:
+  core-damaged:
+    - "[message] &#FF7070▌ &fЯдро потеряло &#FFD65C%damage% &fпрочности. Осталось: &#00FF55%durability%&f/&#00FF55%maximum%&f."
+  core-destroyed:
+    - "[message] &#FF7070▌ &fЯдро уничтожено. Регион &#FF7070удалён&f."
+  core-repaired:
+    - "[message] &#00FF55▌ &fВосстановлено &#00FF55%amount% &fпрочности. Сейчас: &#00FF55%durability%&f/&#00FF55%maximum%&f."
+  core-repair-full:
+    - "[message] &#00FF55▌ &fЯдро не нуждается в ремонте."
+  core-repair-cooldown:
+    - "[message] &#FFD65C▌ &fРемонт будет доступен через &#00FF55%seconds% &fсек. после последнего повреждения."
+  core-raid-locked:
+    - "[message] &#FFD65C▌ &fЯдро под атакой. Забрать его можно через &#00FF55%seconds% &fсек. без повреждений."
+  core-invalid:
+    - "[message] &#FF7070▌ &fНельзя установить разрушенное ядро."
+
+  new-add-member:
+    - "[message] &#00FF55▌ &fОткройте чат клавишей &#00FF55T&f."
+    - "[message] &#00FF55▌ &fВведите &#00FF55ник игрока &fили &#FFD65Cотмена&f."
+    - "[message] &#00FF55▌ &fВремя на ввод: &#00FF55%seconds% &fсек."
+  new-add-memder-cancel:
+    - "[message] &#00FF55▌ &fДобавление участника &#FFD65Cотменено&f."
+  new-add-member-player:
+    - "[message] &#00FF55▌ &fИгрок &#00FF55%player% &fдобавлен в регион."
+  timeout-add-member:
+    - "[message] &#00FF55▌ &fВремя на добавление участника &#FFD65Cистекло&f."
+
+  view-on:
+    - "[message] &#00FF55▌ &fГраницы региона показаны на &#00FF55%seconds% &fсек."
+  view-off:
+    - "[message] &#00FF55▌ &fПоказ границ &#FFD65Cзавершён&f."
+  error-view-on:
+    - "[message] &#00FF55▌ &fГраницы уже показаны. Дождитесь &#FFD65Cзавершения подсветки&f."
+  view-not-member:
+    - "[message] &#FF7070▌ &fПросматривать границы могут &#00FF55владелец &fи &#00FF55участники &fрегиона."
+
+  region-conflict:
+    - "[message] &#FF7070▌ &fРегионы пересекаются. Отойдите &#FFD65Cдальше &fи попробуйте снова."
+  error-region-storage:
+    - "[message] &#FF7070▌ &fНе удалось сохранить изменения региона. Действие отменено."
+    - "[message] &#FF7070▌ &fСвяжитесь с &#FFD65Cадминистрацией&f."
+  no-permission:
+    - "[message] &#FF7070▌ &fДля этого действия &#FF7070недостаточно прав&f."
+  player-not-found:
+    - "[message] &#FF7070▌ &fИгрок &#00FF55%player% &fне найден."
+  player-offline:
+    - "[message] &#FF7070▌ &fИгрок &#00FF55%player% &fсейчас не в сети."
+  self-target:
+    - "[message] &#FF7070▌ &fНельзя выполнить это действие &#FFD65Cна себе&f."
+  region-no-territoria:
+    - "[message] &#FF7070▌ &fВы находитесь &#FFD65Cвне территории региона&f."
+  region-no-owner:
+    - "[message] &#FF7070▌ &fВы &#FFD65Cне являетесь владельцем &fэтого региона."
+
+  ps-help:
+    - ""
+    - "[message] &#00FF55▌ &fКоманды &#00FF55региона"
+    - "[message] &#00FF55▌ /ps help &f— помощь по командам"
+    - "[message] &#00FF55▌ /ps add <ник> &f— добавить участника"
+    - "[message] &#00FF55▌ /ps remove <ник> &f— удалить участника"
+    - "[message] &#00FF55▌ /ps flag <флаг> &f— переключить флаг"
+    - "[message] &#00FF55▌ /ps info &f— информация о регионе"
+    - "[message] &#00FF55▌ /ps view &f— показать границы региона"
+    - ""
+  ps-admin-help:
+    - ""
+    - "[message] &#00FF55▌ &fКоманды &#00FF55администратора"
+    - "[message] &#00FF55▌ /ps admin help &f— помощь администратора"
+    - "[message] &#00FF55▌ /ps admin give <ник> <id> <кол-во> &f— выдать приват"
+    - "[message] &#00FF55▌ /ps admin reload &f— перезагрузить настройки"
+    - ""
+
+  player-added:
+    - "[message] &#00FF55▌ &fИгрок &#00FF55%player% &fдобавлен в ваш регион."
+  player-removed:
+    - "[message] &#00FF55▌ &fИгрок &#00FF55%player% &fудалён из вашего региона."
+  already-member:
+    - "[message] &#FFD65C▌ &fИгрок &#00FF55%player% &fуже является участником региона."
+  not-member:
+    - "[message] &#FFD65C▌ &fИгрок &#00FF55%player% &fне является участником региона."
+
+  flag-set:
+    - "[message] &#00FF55▌ &fФлаг &#00FF55%flag%&f: %value%&f."
+  flag-unknown:
+    - "[message] &#FF7070▌ &fФлаг &#FFD65C%flag% &fне найден."
+    - "[message] &#00FF55▌ &fДоступные флаги: &#00FF55%available%"
+
+  region-given:
+    - "[message] &#00FF55▌ &fИгроку &#00FF55%player% &fвыдан %type% &fв количестве &#00FF55%amount% &fшт."
+  region-received:
+    - "[message] &#00FF55▌ &fВы получили %type% &fв количестве &#00FF55%amount% &fшт."
+    - "[sound]ENTITY_EXPERIENCE_ORB_PICKUP,0.4,1.2"
+  region-placed:
+    - "[message] &#00FF55▌ &fРегион &#00FF55создан&f. Радиус: &#00FF55%radius% &fблоков."
+    - "[sound]ENTITY_EXPERIENCE_ORB_PICKUP,0.4,1.4"
+  region-broken:
+    - "[message] &#00FF55▌ &fРегион &#FFD65Cудалён&f."
+    - "[sound]ENTITY_ITEM_BREAK,0.4,0.8"
+  region-overlap:
+    - "[message] &#FF7070▌ &fЗдесь уже есть регион. Отойдите &#FFD65Cдальше &fдля установки."
+  region-blocked-world:
+    - "[message] &#FF7070▌ &fВ этом мире установка регионов &#FFD65Cотключена&f."
+
+  info:
+    - "[message] &fПрочность ядра: &#00FF55%region_durability%&f/&#00FF55%region_max_durability%"
+    - ""
+    - "[message] &#00FF55▌ &fИнформация о &#00FF55регионе"
+    - "[message] &#00FF55▌ &fВладелец: &#00FF55%region_owner%"
+    - "[message] &#00FF55▌ &fТип: %region_type%"
+    - "[message] &#00FF55▌ &fРадиус: &#00FF55%region_radius% &fблоков"
+    - "[message] &#00FF55▌ &fКоординаты: &#00FF55%world% &f[&#00FF55%region_x_y_z%&f]"
+    - "[message] &#00FF55▌ &fУчастники (&#00FF55%region_members%&f): &#00FF55%members%"
+    - "[message] &#00FF55▌ &fФлаги региона:"
+    - "[message] &#00FF55• &fВзрывы: %region_flag_explosion%"
+    - "[message] &#00FF55• &fTNT: %region_flag_tnt%"
+    - "[message] &#00FF55• &fОбщий доступ: %region_flag_access%"
+    - "[message] &#00FF55• &fСундуки: %region_flag_chest%"
+    - "[message] &#00FF55• &fPvP: %region_flag_pvp%"
+    - "[message] &#00FF55• &fУрон животным: %region_flag_damage_animals%"
+    - "[message] &#00FF55• &fДвери: %region_flag_doors%"
+    - "[message] &#00FF55• &fКнопки: %region_flag_buttons%"
+    - "[message] &#00FF55• &fРычаги: %region_flag_levers%"
+    - ""
+
+  reloaded:
+    - "[message] &#00FF55▌ &fНастройки плагина &#00FF55перезагружены&f."
+  usage-add:
+    - "[message] &#00FF55▌ &fИспользуйте: &#00FF55/ps add <ник>"
+  usage-remove:
+    - "[message] &#00FF55▌ &fИспользуйте: &#00FF55/ps remove <ник>"
+  usage-flag:
+    - "[message] &#00FF55▌ &fИспользуйте: &#00FF55/ps flag <флаг>"
+  usage-give:
+    - "[message] &#00FF55▌ &fИспользуйте: &#00FF55/ps admin give <ник> <id> <кол-во>"
+  unknown-type:
+    - "[message] &#FF7070▌ &fТип региона &#FFD65C%type% &fне найден."
+  invalid-amount:
+    - "[message] &#FF7070▌ &fУкажите количество от &#00FF551 &fдо &#00FF5564&f."
+
+  protect-break:
+    - "[actionbar] &#FF7070▌ &fЗдесь нельзя ломать блоки."
+  protect-place:
+    - "[actionbar] &#FF7070▌ &fЗдесь нельзя ставить блоки."
+  protect-interact:
+    - "[actionbar] &#FF7070▌ &fУ вас нет доступа к этому региону."
+  protect-chest:
+    - "[actionbar] &#FF7070▌ &fЭтот контейнер защищён."
+  protect-pvp:
+    - "[actionbar] &#FF7070▌ &fPvP в этом регионе отключено."
+  protect-animals:
+    - "[actionbar] &#FF7070▌ &fЖивотные в этом регионе защищены."
+
+placeholder:
+  no-members: "&fнет"
+  flag-value-on: "&#00FF55включён"
+  flag-value-off: "&#FF7070выключен"

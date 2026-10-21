@@ -1,0 +1,40 @@
+database:
+  file: data.db
+
+cache:
+  region-ttl-seconds: 60
+  location-ttl-seconds: 30
+
+region:
+  min-distance-between: 4
+  block-nbt-key: eregion_type
+
+view:
+  enabled: true
+  particle: minecraft:dust
+  color: '#55FF55'
+  to-color: '#55FFFF'
+  size: 1.0
+  material: STONE
+  value: 0.0
+  duration-seconds: 15
+  interval-ticks: 10
+  spacing: 1.0
+  count: 1
+  offset-x: 0.0
+  offset-y: 0.0
+  offset-z: 0.0
+  speed: 0.0
+  range: 128.0
+  max-points: 1200
+hologram-setting:
+  hologram-type:
+    type: DecentHolograms
+  hologram:
+    line:
+      - ""
+      - "&fВладелец &a%region_owner%"
+      - "&fПрочность &a%region_durability%&f/&a%region_max_durability%"
+      - ""
+    height: 0.8
+

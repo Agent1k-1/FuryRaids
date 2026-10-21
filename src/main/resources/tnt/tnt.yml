@@ -1,0 +1,46 @@
+settings:
+  default-fuse-ticks: 80
+  incendiary: false
+  region-damage: 1
+
+types:
+  nuke:
+    name: "&#FF0055&lЯдерный ТНТ"
+    lore:
+      - "&7Радиус взрыва: &f30"
+      - ""
+      - "&8ПКМ по блоку — активация"
+    material: TNT
+    radius: 30
+    autofire: false
+    region-damage: 8
+    abilities:
+      - obsidian: 1 # 3x2x3 # Коробка размером 3 (ширина) на 2 высота на 3 (глубина) блоков вокруг ТНТ
+      # - obsidian 1 # также поддерживается вариант (радиус куба 1 блок во все стороны)
+  cluster:
+    name: "&#FFAA00&lКассетный ТНТ"
+    lore:
+      - "&7Радиус взрыва: &f15"
+      - ""
+      - "&8ПКМ по блоку — активация"
+    material: TNT
+    radius: 15
+    autofire: false
+    region-damage: 2
+    abilities:
+      - obsidian: 1 # 3x2x3 # Коробка размером 3 (ширина) на 2 высота на 3 (глубина) блоков вокруг ТНТ
+      # - obsidian 1 # также поддерживается вариант (радиус куба 1 блок во все стороны)
+  mini:
+    name: "&a&lМини ТНТ"
+    lore:
+      - "&7Радиус взрыва: &f3"
+      - ""
+      - "&8ПКМ по блоку — активация"
+    material: TNT
+    radius: 3
+    autofire: false
+    region-damage: 1
+    abilities:
+      - obsidian: 1 # 3x2x3 # Коробка размером 3 (ширина) на 2 высота на 3 (глубина) блоков вокруг ТНТ
+      # - obsidian 1 # также поддерживается вариант (радиус куба 1 блок во все стороны)
+      - bedrock: 2

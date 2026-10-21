@@ -1,0 +1,49 @@
+regions:
+  1:
+    material: DIAMOND_BLOCK # материал
+    display-name: "&b&lМалый приват" # название
+    lore: # описание
+      - "&7Радиус: &f10 блоков"
+      - "&7ID типа: &f1"
+      - ""
+      - "&8Поставьте блок чтобы создать регион"
+    radius: 10 # радиус региона
+    durability: 5
+    view:
+      particle: minecraft:dust
+      color: '#55FFFF'
+      size: 1.0
+  2:
+    material: EMERALD_BLOCK
+    display-name: "&a&lСредний приват"
+    lore:
+      - "&7Радиус: &f25 блоков"
+      - "&7ID типа: &f2"
+      - ""
+      - "&8Поставьте блок чтобы создать регион"
+    radius: 25
+    durability: 10
+    view:
+      particle: minecraft:end_rod
+
+  3:
+    material: NETHERITE_BLOCK
+    display-name: "&#5B00FF&lБольшой приват"
+    lore:
+      - "&7Радиус: &f50 блоков"
+      - "&7ID типа: &f3"
+      - ""
+      - "&8Поставьте блок чтобы создать регион"
+    radius: 50
+    durability: 15
+    view:
+      particle: minecraft:soul_fire_flame
+
+blocked-worlds:
+  - world_nether
+  - world_the_end
+
+repair:
+  material: DIAMOND
+  restore: 3
+  cooldown-after-damage: 60

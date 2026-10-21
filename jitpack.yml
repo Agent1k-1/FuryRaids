@@ -1,0 +1,4 @@
+jdk:
+  - openjdk21
+install:
+  - mvn -B -Dmaven.test.skip=true -Dmaven.javadoc.skip=true install
